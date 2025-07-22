@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahmed Osama - ASP.NET Core Developer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">AO</div>
+          <ul class="nav-links">
+            <li><a href="#about" class="active">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <button class="theme-toggle" id="themeToggle">
+            <i class="fas fa-moon"></i>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Ahmed Osama</h1>
+        <p>ASP.NET Core Developer & Computer Engineering Student</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>About Me</h2>
+          <p>Get to know my background and professional journey</p>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm a passionate third-year Computer Engineering student at Benha
+              University with a strong focus on backend development and cloud
+              technologies. My expertise lies in building scalable web
+              applications using ASP.NET Core, implementing clean architecture
+              principles, and developing robust RESTful APIs.
+            </p>
+            <p>
+              I specialize in creating maintainable solutions with proper
+              separation of concerns, testability, and performance optimization.
+              My projects demonstrate proficiency in modern software design
+              patterns, cloud infrastructure, and secure application
+              development.
+            </p>
+            <p>
+              Driven by continuous learning, I'm expanding my skills in
+              cloud-native applications and distributed systems. My goal is to
+              become a solutions architect who can design and implement complex,
+              high-performance software systems.
+            </p>
+          </div>
+          <div class="about-image">
+            <div class="profile-img">
+              <img
+                src="AhmedOsama.jpg"
+                alt="Ahmed Osama"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="section-title">
+          <h2>Technical Skills</h2>
+          <p>My technical expertise across various domains</p>
+        </div>
+        <div class="skills-container">
+          <div class="skill-category">
+            <h3><i class="fas fa-code"></i> Programming Languages</h3>
+            <div class="skill-list">
+              <span class="skill-item">C#</span>
+              <span class="skill-item">C++</span>
+              <span class="skill-item">Java</span>
+              <span class="skill-item">C</span>
+              <span class="skill-item">HTML/CSS</span>
+              <span class="skill-item">JavaScript</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3>
+              <i class="fas fa-laptop-code"></i> Frameworks & Technologies
+            </h3>
+            <div class="skill-list">
+              <span class="skill-item">ASP.NET Core</span>
+              <span class="skill-item">ASP.NET MVC</span>
+              <span class="skill-item">Entity Framework Core</span>
+              <span class="skill-item">LINQ</span>
+              <span class="skill-item">SQL Server</span>
+              <span class="skill-item">Docker</span>
+              <span class="skill-item">Redis</span>
+              <span class="skill-item">Azure DevOps</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3><i class="fas fa-cubes"></i> Design Patterns & Principles</h3>
+            <div class="skill-list">
+              <span class="skill-item">Clean Architecture</span>
+              <span class="skill-item">Repository Pattern</span>
+              <span class="skill-item">Unit of Work</span>
+              <span class="skill-item">Dependency Injection</span>
+              <span class="skill-item">SOLID Principles</span>
+              <span class="skill-item">Factory Pattern</span>
+              <span class="skill-item">Strategy Pattern</span>
+              <span class="skill-item">Adapter Pattern</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3><i class="fas fa-tools"></i> Tools & Practices</h3>
+            <div class="skill-list">
+              <span class="skill-item">Git & GitHub</span>
+              <span class="skill-item">Agile Methodology</span>
+              <span class="skill-item">Payment Integration</span>
+              <span class="skill-item">Data Structures</span>
+              <span class="skill-item">Algorithms</span>
+              <span class="skill-item">OOP</span>
+              <span class="skill-item">RESTful APIs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="section-title">
+          <h2>Featured Projects</h2>
+          <p>My recent work showcasing technical capabilities</p>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div
+              class="project-image"
+              style="background: linear-gradient(135deg, #3b82f6, #1d4ed8)"
+            >
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+            <div class="project-content">
+              <h3>ECommerce API</h3>
+              <p>
+                A clean, extensible backend solution for e-commerce platforms
+                built with ASP.NET Web API using Onion Architecture. Features
+                include caching, payment integration, and secure authentication.
+              </p>
+              <div class="project-tech">
+                <span class="tech-item">ASP.NET Core</span>
+                <span class="tech-item">Entity Framework</span>
+                <span class="tech-item">Clean Architecture</span>
+                <span class="tech-item">SQL Server</span>
+              </div>
+              <a href="https://github.com/AhmedUsama29/ECommerce" target="_blank" class="project-link"
+                >View Details <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div
+              class="project-image"
+              style="background: linear-gradient(135deg, #8b5cf6, #7c3aed)"
+            >
+              <i class="fas fa-users"></i>
+            </div>
+            <div class="project-content">
+              <h3>Employee Management System</h3>
+              <p>
+                Layered ASP.NET MVC application demonstrating Clean Architecture
+                principles with Repository, Unit of Work, and Specification
+                patterns. Includes full CRUD functionality for employee records.
+              </p>
+              <div class="project-tech">
+                <span class="tech-item">ASP.NET MVC</span>
+                <span class="tech-item">Repository Pattern</span>
+                <span class="tech-item">Unit of Work</span>
+                <span class="tech-item">Razor Pages</span>
+              </div>
+              <a href="https://github.com/AhmedUsama29/MVC-Demo-Layers" target="_blank" class="project-link"
+                >View Details <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div
+              class="project-image"
+              style="background: linear-gradient(135deg, #ec4899, #db2777)"
+            >
+              <i class="fas fa-lock"></i>
+            </div>
+            <div class="project-content">
+              <h3>Image Encryption Tool</h3>
+              <p>
+                Desktop application that securely encrypts and decrypts image
+                files using the AES (Advanced Encryption Standard) algorithm to
+                ensure data confidentiality.
+              </p>
+              <div class="project-tech">
+                <span class="tech-item">Python</span>
+                <span class="tech-item">AES Algorithm</span>
+                <span class="tech-item">Tkinter GUI</span>
+                <span class="tech-item">Cryptography</span>
+              </div>
+              <a href="https://github.com/AhmedUsama29/EncryptedImageLocker" target="_blank" class="project-link"
+                >View Details <i class="fas fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="experience">
+      <div class="container">
+        <div class="section-title">
+          <h2>Professional Experience</h2>
+          <p>My journey through professional roles and achievements</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">
+              <i class="far fa-calendar-alt"></i> 09/2024 – 10/2024
+            </div>
+            <h3 class="timeline-title">CS50's Understanding Technology</h3>
+            <div class="timeline-subtitle">
+              Information Technology Institute (ITI)
+            </div>
+            <p>
+              Completed a 24-hour introductory course covering key technology
+              concepts including hardware, software, networking, security, and
+              web technologies.
+            </p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">
+              <i class="far fa-calendar-alt"></i> 07/2024 – 08/2024
+            </div>
+            <h3 class="timeline-title">HCIA-Cloud Computing v5 Internship</h3>
+            <div class="timeline-subtitle">Huawei</div>
+            <p>
+              Successfully completed a comprehensive training program covering
+              the fundamentals of cloud computing, virtualization, and cloud
+              infrastructure deployment using Huawei technologies.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="education">
+      <div class="container">
+        <div class="section-title">
+          <h2>Education</h2>
+          <p>My academic background and certifications</p>
+        </div>
+        <div class="education-grid">
+          <div class="education-card">
+            <div class="edu-icon">
+              <i class="fas fa-university"></i>
+            </div>
+            <div class="edu-content">
+              <h3>Faculty of Engineering at Shoubra</h3>
+              <div class="edu-date">
+                <i class="far fa-calendar-alt"></i> 2022 – Present
+              </div>
+              <div class="edu-subtitle">Benha University</div>
+              <p class="edu-description">
+                Third year student at Communications & Computer Engineering
+                Department. Focusing on advanced computer science principles,
+                software engineering, and system design.
+              </p>
+            </div>
+          </div>
+
+          <div class="education-card">
+            <div class="edu-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <div class="edu-content">
+              <h3>Back-End Development with ASP.NET Core</h3>
+              <div class="edu-date">
+                <i class="far fa-calendar-alt"></i> 10/2024 – 05/2025
+              </div>
+              <div class="edu-subtitle">Route Academy</div>
+              <p class="edu-description">
+                Comprehensive training in ASP.NET Core development covering web
+                API creation, database integration, authentication, and
+                deployment strategies.
+              </p>
+            </div>
+          </div>
+
+          <div class="education-card">
+            <div class="edu-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <div class="edu-content">
+              <h3>Principles of Writing Clean Code</h3>
+              <div class="edu-date">
+                <i class="far fa-calendar-alt"></i> 12/2024
+              </div>
+              <div class="edu-subtitle">MaharaTech - ITIMoo.ca</div>
+              <p class="edu-description">
+                Advanced course focusing on software craftsmanship, clean code
+                principles, refactoring techniques, and maintainable software
+                design.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Get In Touch</h2>
+          <p>Feel free to reach out for opportunities or collaborations</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Email</h3>
+                <a href="mailto:ahmedabobasha29@gmail.com"
+                  >ahmedabobasha29@gmail.com</a
+                >
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Phone</h3>
+                <a href="tel:+201010679791">+20 101 067 9791</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Location</h3>
+                <p>Cairo, Egypt</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fab fa-github"></i>
+              </div>
+              <div class="contact-details">
+                <h3>GitHub</h3>
+                <a href="https://github.com/AhmedUsama29" target="_blank"
+                  >github.com/AhmedUsama29</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/ahmedosama29/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/AhmedUsama29" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="mailto:ahmedabobasha29@gmail.com"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 Ahmed Osama. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
